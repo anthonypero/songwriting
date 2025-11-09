@@ -1,0 +1,15 @@
+{
+  "context": {
+    "includeDirectories": [
+      "/Users/apero/.gemini",
+      "/Users/apero/.gemini/notes",
+      "/Users/apero/.ssh"
+    ],
+    "loadFromIncludeDirectories": false
+  },
+  "ui": {
+    "footer": {
+      "hideContextPercentage": false
+    }
+  }
+}
