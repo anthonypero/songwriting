@@ -18,21 +18,30 @@ def extract_lyrics_from_chordpro(input_file_path: str, output_file_path: str):
         lines = chordpro_content.strip().split('\n')
         lyrics_lines = []
 
-        for line in lines:
+        for i, line in enumerate(lines):
             # First, handle comment tags: {comment: Some Header} -> [Some Header]
             comment_match = re.search(r'\{comment:\s*(.*?)\}', line)
             if comment_match:
                 comment_text = comment_match.group(1).strip()
-                line = f"[{comment_text}]"
+                processed_line = f"[{comment_text}]"
             else:
                 # Remove other ChordPro metadata tags (e.g., {title: ...}, {artist: ...})
-                line = re.sub(r'\{[^}]*\}', '', line)
+                processed_line = re.sub(r'\{[^}]*\}', '', line)
                 # Remove ChordPro chord notations [C]
-                line = re.sub(r'\[[^\]]*\]', '', line)
+                processed_line = re.sub(r'\[[^\]]*\]', '', processed_line)
             
-            line = line.strip()
-            if line:  # Only add non-empty lines
-                lyrics_lines.append(line)
+            processed_line = processed_line.strip()
+
+            if processed_line:
+                # Add a newline before headings, unless it's the very first line
+                # A heading is identified as a line starting with '[' and ending with ']'
+                is_heading = processed_line.startswith('[') and processed_line.endswith(']') and len(processed_line) > 2
+                
+                # Check if it's a heading, not the first line, and the last appended line isn't already empty
+                if is_heading and lyrics_lines and not (lyrics_lines[-1].strip() == ''):
+                    lyrics_lines.append('') # Add an empty line before the heading
+                
+                lyrics_lines.append(processed_line)
 
         with open(output_file_path, 'w', encoding='utf-8') as f:
             f.write('\n'.join(lyrics_lines))
