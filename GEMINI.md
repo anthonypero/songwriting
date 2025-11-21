@@ -83,6 +83,15 @@ When asked to create a "pco version" or "planning center version" of a song, fol
         *   **Exception:** `[*N.C.]` is a special case and should be converted to `[N.C.]`.
     *   Converting in-chord annotations like `[CHORD *annotation]` to `[CHORD {{<i>annotation</i>}}]`.
     *   Ensuring chords remain in square brackets `[]`.
+    *   For lines containing only chords (e.g., intros, instrumentals), combine the section header and the chord progression onto a single line. Remove the square brackets `[]` from around each individual chord and symbol, but enclose the entire chord progression in a single set of square brackets `[]`. Do not add a colon after the section header. For example:
+        ```
+        INTRO
+        [D] [/] [/] [/] [|] [Bm] [/] [/] [/]
+        ```
+        Should become:
+        ```
+        INTRO [D / / / | Bm / / /]
+        ```
     *   Adjusting any other ChordPro-specific directives to their Planning Center equivalents as needed.
     *   Removing `end_of_*` tags.
 

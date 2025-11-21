@@ -6,78 +6,66 @@
 {copyright: 2025 Anthony Pero Music}
 {tag: christmas, hymn, joy}
 
-{start_of_verse: Verse 1}
-[E]Joy to the world! The [B]Lord is [C#m]come
+{comment: Verse 1}
+[E]Joy to the world the [B]Lord is [C#m]come
 Let [A]earth re[B]ceive her [E]King
 Let [E]every heart pre[C#m]pare Him room
 And [E]heaven and nature sing
 And [B]heaven and nature sing
-And [A]heaven, and heaven, 
-And [B]nature [(E)]sing
-{end_of_verse}
+And [A]heaven and heaven 
+And [B]nature [E]sing
 
-{start_of_link}
-[(E)] [/] [/] [/] [|] [E] [/] [/] [/] [|] [A/C#] [B] [E][/] 
-{end_of_link}
+{comment: Interlude}
+[E] [/] [/] [/] [|] [E] [/] [/] [/] [|] [A/C#] [B] [E][/] 
 
-{start_of_verse: Verse 2}
-[E]Joy to the Earth! The [B]Savior [C#m]reigns
+{comment: Verse 2}
+[E]Joy to the Earth the [B]Savior [C#m]reigns
 Let [A]men their [B]songs em[E]ploy
-While [E]fields and floods, rocks, [C#m]hills, and plains
+While [E]fields and floods rocks [C#m]hills and plains
 Re[E]peat the sounding joy
 Re[B]peat the sounding joy
-Re[A]peat, repeat
-The [B]sounding [E]joy
-{end_of_verse}
+Re[A]peat repeat the [B]sounding [E]joy
 
-{start_of_chorus}
-Let [E]love come[A] down, let the [B]Angels[E] sing
+{comment: Chorus}
+Let [E]love come[A] down let the [B]Angels[E] sing
 A [E/G#]joyful song of[A] praise to the [B]newborn[E] king
 Let [C#m]every [A]voice on the [B]earth pro[C#m]claim
-That [E/G#]Christ is [A]born this day in [B]Bethle[(E)]hem
-{end_of_chorus}
+That [E/G#]Christ is [A]born this day in [B]Bethle[E]hem
 
-{start_of_link}
-[(E)] [/] [/] [/] [|] [/] [/] [/] [/]
-{end_of_link}
+{comment: Interlude}
+[E] [/] [/] [/] [|] [/] [/] [/] [/]
 
-{start_of_verse}
+{comment: Verse 2}
 [*N.C.]He rules the world with [B]truth [Cdim]and [C#m]grace
 And [Amaj7]makes the [B]nations [C#m]prove
 The [E]glories [Esus]of His [E]righteous[Esus]ness
 And [E]wonders of His love
 And [B]wonders of His love
-And [A]wonders, wonders, 
-[B]Of His [E]love!
-{end_of_verse}
-
+And [A]wonders wonders 
+[B]Of His [E]love
 
 {transpose: 2}
-{start_of_chorus}
-Let [E]love come[A] down, let the [B]Angels[E] sing
+{comment: Chorus}
+Let [E]love come[A] down let the [B]Angels[E] sing
 A [E/G#]joyful song of[A] praise to the [B]newborn[E] king
 Let [C#m]every [A]voice on the [B]earth pro[C#m]claim
 That [E/G#]Christ is [A]born this day in [B]Bethle[E]hem
-{end_of_chorus}
 
-{start_of_instrumental}
+
+{comment: Instrumental}
 [E] [/] [A] [/] [|] [B] [/] [E] [/] [|] [E] [/] [A] [/] [|] [B] [/] [E] [/] [|] [C#m] [/] [A] [/] [|] [B] [/] [C#m] [/] [|] [E/G#] [/] [A] [/] [|] [B] [/] [E] [/] [|]
-{end_of_instrumental}
 
-{start_of_chorus: Breakdown}
-Let love come down, let the Angels sing!
+{comment: Chorus}
+Let [N.C]love come down let the Angels sing
 A joyful song of praise to the newborn king
 Let [E]every [A]voice on the [B]earth [C#m]proclaim
 That [E/G#]Christ is [A]born this day in [B]Bethlehem[E]
-{end_of_chorus}
 
-{start_of_chorus}
-Let [E]love come[A] down, let the [B]Angels[E] sing
+{comment: Chorus}
+Let [E]love come[A] down let the [B]Angels[E] sing
 A [E/G#]joyful song of[A] praise to the [B]newborn[E] king
 Let [C#m]every [A]voice on the [B]earth pro[C#m]claim
-That [E/G#]Christ is [A]born this day in [B]Beth - le - [E]hem
-{end_of_chorus}
+That [E/G#]Christ is [A]born this day in [B]Bethle[E]hem
 
-{start_of_outro}
-That [E/G#]Christ is [A]born this day in [B]Beth - le - [E]hem
-{end_of_outro}
+{comment: Tag}
+That [E/G#]Christ is [A]born this day in [B]Bethle[E]hem

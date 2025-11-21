@@ -4,63 +4,66 @@
 {composer: Anthony Pero}
 {lyricist: Anthony Pero}
 {copyright: 2025 Anthony Pero Music}
-{key: }
-{tempo: }
+{key: C}
+{tempo: 84}
 {tag: christmas, hymn, worship}
 
 {comment: Intro}
+[C] [Am] [C] [Am]
 
 {comment: Verse 1}
-Silent night, holy night
-All is calm, all is bright
-Round yon Virgin, Mother and Child
-Holy Infant so tender and mild
-Sleep in heavenly peace
-Sleep in heavenly peace
+[C]Silent night [Am]holy night
+[G]All is calm [Am]all is [C]bright
+[F]Round yon Virgin Mother and [C]Child
+[F]Holy Infant so tender and [Am]mild
+[G]Sleep in heavenly [Am]peace
+[F]Sleep in [G]heavenly [C]peace [Am]
 
 {comment: Verse 2}
-Silent night, holy night
-Shepherds quake at the sight
-Glories stream from heaven afar
-Heavenly hosts sing Alleluia
-Christ the Savior is born
-Christ the Savior is born
+[C]Silent night [Am]holy night
+[G]Shepherds quake [Am]at the [C]sight
+[F]Glories stream from heaven a[C]far
+[F]Heavenly hosts sing Allelu[C]ia
+[G]Christ the Savior is [Am]born
+[F]Christ the [G]Savior is [C]born
 
 {comment: Chorus}
-He is born! 
-Jesus is born, hallelujah!
-Sing noel!
-Noel to our King, to our Savior!
-Hallelujah!
+He is [C]born 
+Jesus is [G]born halle[Am]lujah
+[F]Sing [C]noel
+Noel to our [G]King to our [Am]Savior
+Halle[F]lujah[C]
 
 {comment: Instrumental}
+[C] [Am] [F] [C] [Am] [F] 
 
 {comment: Verse 3}
-Silent night, holy night
-Son of God, love's pure light
-Radiant beams from Thy holy face
-With the dawn of redeeming grace
-Jesus Lord, at Thy birth
-Jesus Lord, at Thy birth
+[C]Silent night [Am]holy night
+[G]Son of God [Am]love's pure [C]light
+[F]Radiant beams from Thy holy [C]face
+[F]With the dawn of redeeming [Am]grace
+[G]Jesus Lord at Thy [Am]birth
+[F]Jesus [G]Lord at Thy birth[C]
 
-{comment: Chorus - Build, add full string section}
-He is born! 
-Jesus is born, hallelujah!
-Sing noel!
-Noel to our King, to our Savior!
+{comment: Chorus}
+He is [*NC]born 
+Jesus is born hallelujah
+Sing noel
+Noel to our King to our Savior [F]
 
-{comment: Chorus Breakdown}
-He is born! 
-Jesus is born, hallelujah!
-Sing noel!
-Noel to our King, to our Savior!
+{comment: Chorus }
+He is [C]born 
+Jesus is [G]born halle[Am]lujah
+[F]Sing [C]noel
+Noel to our [G]King to our [Am]Savior
 
-{comment: Chorus - Build, add full string section}
-He is born! 
-Jesus is born, hallelujah!
-Sing noel!
-Noel to our King, to our Savior!
+{comment: Down Chorus}
+He is [C]born 
+Jesus is [G]born halle[Am]lujah
+[F]Sing [C]noel
+Noel to our [G]King to our [Am]Savior [F]
 
 {comment: Outro}
-Hallelujah!
-Hallelujah.
+Hallelu[C]jah
+Halle[Am]lujah [C] 
+Halle[Am]lujah [C]

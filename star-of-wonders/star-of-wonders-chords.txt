@@ -1,42 +1,31 @@
-{title: Star of Wonders}
-{meta: slug star-of-wonders}
-{artist: Anthony Pero}
-{composer: Anthony Pero}
-{lyricist: Anthony Pero}
-{copyright: 2025 Anthony Pero Music}
-{key: G#m}
-{tempo: 78}
-{tag: christmas, hymn, epiphany}
+INTRO [G#m F# G#m]
 
-{comment: Intro}
-[G#m] [F#] [G#m]
-
-{comment: Verse 1}
+VERSE 1
 [G#m]We three kings of [F#]Orient [G#m]are
 [G#m]Bearing gifts we [F#]travel a[G#m]far
 [G#m]Field and [F#/A#]fountain [B]moor and [C#m]mountain
 [D#7/G]Following yonder [G#m]star
 
-{comment: Verse 2}
+VERSE 2
 [G#m]Born a King on [F#]Bethlehem’s [G#m]plain
 [G#m]Gold I bring to [F#]crown Him a[G#m]gain
 [G#m]King for[F#/A#]ever [B]ceasing [C#m]never
 [C#m]Over us all to [G#m]reign
 
-{comment: Chorus}
+CHORUS
 [G#m]Star of wonder [D#m]star of night
 [E]Star with royal [B]beauty [F#]bright
 [G#m]Westward [F#sus]leading [B/D#]still proc[Emaj7]eeding
 [G#m]Guide us to your [D#m]perfect [G#m]light
-[*N.C.]Guide us to your perfect [G#m]light
+[N.C.]Guide us to your perfect [G#m]light
 
-{comment: Verse 3}
+VERSE 3
 [G#m]Frankincense to [F#]offer have [G#m]I
 [G#m]Incense owns a [F#]Deity [G#m]nigh
 [G#m]Prayer and [F#/A#]praising [B]voices [C#m]raising
-[*N.C.]Worshiping God most high
+[N.C.]Worshiping God most high
 
-{comment: Chorus}
+CHORUS
 [G#m]Star of wonder [D#m]star of night
 [E]Star with royal [B]beauty [F#]bright
 [G#m]Westward [F#sus]leading [B/D#]still proc[Emaj7]eeding
@@ -45,28 +34,27 @@
 [E]Star with royal [B]beauty [F#]bright
 [G#m]Westward [F#sus]leading [B/D#]still proc[Emaj7]eeding
 [G#m]Guide us to your [D#m]perfect [G#m]light
-[*N.C.]Guide us to your perfect [G#m]light
+[N.C.]Guide us to your perfect [G#m]light
 
-{comment: Instrumental}
-[E] [F#] [G#m] [D#m] [E] [D#sus] [D#]
+INSTRUMENTAL [E F# G#m D#m E D#sus D#]
 
-{comment: Bridge}
+BRIDGE
 [Emaj7]Glorious now be[D#m]hold Him arise
 [Emaj7]King and God and [D#m]sacrifice
 [G#m]Heaven [F#]sings [B]Allel[C#m]uia
 Al[D#7/A#]leluia the [D#]Earth re[G#m]plies
 
-{comment: Chorus}
-[*N.C.]Star of wonder star of night
+CHORUS
+[N.C.]Star of wonder star of night
 Star with royal beauty bright
 Westward leading still proceeding
 Guide us to your perfect light
 [G#m]Star of wonder [D#m]star of night
 [E]Star with royal [B]beauty [F#]bright
 [G#m]Westward [F#]leading [B/D#]still pro[Emaj7]ceeding
-[G#m]Guide us to your [F#m]perfect [G#M]light
-[G#m]Guide us to your [F#m]perfect [G#]light
+[G#m]Guide us to your [F#m]perfect [G#m]light
+[G#m]Guide us to your [F#m]perfect [G#m]light
 
-{comment: Tag}
-[G#m] [F#] [G#m]
+TAG 
+[G#m F# G#m]
 Guide us to your perfect [G#m]light

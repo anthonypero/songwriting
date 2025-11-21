@@ -1,90 +1,77 @@
-{title: All To Jesus (King Forever)}
-{meta: slug all-to-jesus-king-forever}
-{artist: Anthony Pero}
-{composer: Anthony Pero}
-{lyricist: Anthony Pero}
-{copyright: 2025 Anthony Pero Music}
-{key: }
-{tempo: }
-{tag: surrender, worship, commitment}
+INTRO [D / / / | Bm / / / | G / / / | D / / / |]
 
-{comment: Intro}
-[D] [/] [/] [/] [|] [Bm] [/] [/] [/] [|] [G] [/] [/] [/] [|] [D] [/] [/] [/] [|] 
-
-{comment: Verse 1}
+VERSE 1
 The Son of [Bm]Man, crowned [G]in thorns of love[D]
 [Bm][ ]Descended from [G]His throne a[D]bove
 [G][ ]Hung on the cross [A]to set us f[Bm]ree
 He wore our [G]shame at Calvary[D]
 
-{comment: Verse 2}
+VERSE 2
 The Wounded [Bm]King, ran[G]som paid in full[D]
 [Bm][ ]Who took our place and[G] bore the fall[D]
 [G][ ]Now reconci[A]led by His [Bm]blood
 To be[G]come a child of God[Bm]
 
-{comment: Pre-Chorus}
+PRE-CHORUS
 To be[G]come a child of God[D]
 
-{comment: Chorus 1}
+CHORUS 1
 All to [D]Jesus, King and Sa[A]vior
 We will [Bm]raise our [A]song to You[G]
 All to [D]Jesus, King for[A]ever
 All our [Bm]days be[A]long to You[G]
 All our [Bm]days be[A]long to You[D]
 
-{comment: Verse 3}
+VERSE 3
 Before Your [Bm]throne, kneel[G]ing at Your feet[D]
 [Bm][ ]God, we sur[G]render everything[D]
 [G][ ]Fill us with [A]your love once [D]more
 Until [G]we are wholly [Bm]yours
 
-{comment: Pre-Chorus}
+PRE-CHORUS
 Jesus, [G]we are wholly yours[D]
 
-{comment: Chorus 2}
+CHORUS 2
 All to [D]Jesus, King and Sa[A]vior
 We will [Bm]raise our [A]song to You[G]
 All to [D]Jesus, King for[A]ever
 All our [Bm]days be[A]long to You[G]
 
-{comment: Chorus 1}
+CHORUS 1
 All to [D]Jesus, King and Sa[A]vior
 We will [Bm]raise our [A]song to You[G]
 All to [D]Jesus, King for[A]ever
 All our [Bm]days be[A]long to You[G]
 All our [Bm]days be[A]long to You[D] 
 
-{comment: Bridge 1}
-Enthroned in [*N.C]glory, risen King
+BRIDGE 1
+Enthroned in [N.C.]glory, risen King
 With one voice, all creation sings
 Every crown, laid at Your feet
 Our surrender, now complete
 
-{comment: Bridge 2}
-Enthroned in [D]glo[*add bass only]ry, risen King
+BRIDGE 2
+Enthroned in [D {{<i>add bass only</i>}}]glory, risen King
 With one [G]voice, all creation sings
 Every [Bm]crown, laid at Your feet
 Our sur[G]render, now complete
 
-{comment: Link}
-[G] [/] [D] [/] [|] [G] [/] [/] [/]
+LINK [G / D / | G / / /]
 
-{comment: Instrumental}
-[||:] [D] [/] [/] [/] [|] [G] [/] [/] [/] [|] [Bm] [/] [/] [/] [|] [A] [/] [/] [/] [|] [:||]
+INSTRUMENTAL [||: D / / / | G / / / | Bm / / / | A / / / | :||]
 
-{comment: Chorus 2 - Voices only}
-All to [*N.C.]Jesus, King and Savior
-We will raise our song to You[*begin building]
+CHORUS 2 - VOICES ONLY
+All to [N.C.]Jesus, King and Savior
+We will raise our song to You[{{<i>begin building</i>}}]
 All to [D]Jesus, King for[A]ever
 All our [Bm]days be[A]long to [G]You
 
-{comment: Chorus 3}
+CHORUS 3
 All to [D]Jesus, King and Sa[A]vior
 We will [Bm]raise our [A]song to You[G]
 All to [D]Jesus, King for[A]ever
 All our [Bm]days be[A]long to You[G]
 
-{comment: Tag}
+TAG
 All our [Bm]days be[A]long to you[Bm]
 All our [G]days belong to you[D]

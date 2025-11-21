@@ -2,3 +2,6 @@
 *.mp3
 *.wav
 *.zip
+**/audio/
+**/Audio/
+.DS_Store
