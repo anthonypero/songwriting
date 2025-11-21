@@ -63,7 +63,7 @@ The standard workflow for creating songs is as follows:
 2.  **Create ChordPro File:** From the lyric file, a `.chordpro` file will be created. This process involves:
     *   Adding ChordPro metadata tags (e.g., `{title: ...}`, `{artist: ...}`, `{key: ...}`).
     *   Inserting chords in `[brackets]` next to the corresponding lyrics.
-    *   Adding section headers and other ChordPro directives as needed.
+    *   Adding section headers using `{comment: Header Name}` for consistency and maintainability, along with other ChordPro directives as needed.
 
 This workflow establishes the `.chordpro` file as the main source of truth for the song's structure and chords, while the `.txt` file remains the origin of the lyrics.
 
@@ -112,7 +112,7 @@ When creating a new `.chordpro` file, use the following metadata block as a temp
 
 ## Project Workflow: Git Repository and Google Drive Sync
 
-This project uses a "publish/capture" model to synchronize files between the official Git repository located at `~/Projects/Songwriting` and Google Drive for cross-device access. This workflow is managed by the script located at `.gemini/scripts/sync_workflow.py`.
+This project uses a "publish/capture" model to synchronize files between the official Git repository located at `~/Projects/Songwriting` and Google Drive for cross-device access. This workflow is managed by several scripts located in `.gemini/scripts/`.
 
 ### 1. Publish Workflow (Repo -> Google Drive)
 
@@ -120,7 +120,7 @@ This process copies the final "output" assets from the local Git repository to a
 
 *   **Source:** `/Users/apero/Projects/Songwriting/` (The Git repository)
 *   **Destination:** `~/Library/CloudStorage/GoogleDrive-tonygpero@gmail.com/My Drive/Music/Songwriting (Published)/`
-*   **Action:** Running the script with the `--publish` flag will:
+*   **Action:**
     1.  Scan the source repository.
     2.  Find all lyrics (`-lyrics.txt`), chord charts (`.chordpro`), and audio files (`.mp3`, `.wav`).
     3.  Copy these files, maintaining the slug-based directory structure, to the destination, overwriting any existing files to ensure the published version is up-to-date.
@@ -131,7 +131,7 @@ This process moves new ideas from a "Scratchpad" folder in Google Drive into an 
 
 *   **Source:** `~/Library/CloudStorage/GoogleDrive-tonygpero@gmail.com/My Drive/Music/Songwriting (Scratchpad)/`
 *   **Destination:** `/Users/apero/Projects/Songwriting/_inbox/`
-*   **Action:** Running the script with the `--capture` flag will:
+*   **Action:**
     1.  Scan the source "Scratchpad" folder.
     2.  Move all files found into the destination `_inbox` folder.
     3.  The user can then process these files manually within the Git repository.
@@ -140,21 +140,29 @@ This process moves new ideas from a "Scratchpad" folder in Google Drive into an 
 
 This section documents helper scripts used within the project for various tasks.
 
-### `sync_workflow.py`
+### `build_song_index.py`
 
-*   **Location:** `.gemini/scripts/sync_workflow.py`
-*   **Purpose:** Manages the synchronization of songwriting files between the local Git repository and Google Drive. It supports both publishing (repo to Google Drive) and capturing (Google Drive to repo) workflows.
-*   **Usage:**
-    *   `python3 .gemini/scripts/sync_workflow.py --publish`: Publishes files from the local repository to Google Drive.
-    *   `python3 .gemini/scripts/sync_workflow.py --capture`: Captures new ideas from Google Drive into the local repository's inbox.
+*   **Location:** `.gemini/scripts/build_song_index.py`
+*   **Purpose:** Scans the entire songwriting project directory for `.chordpro` files, extracts metadata (title, artist, key, tempo, tags, etc.), and compiles this information into a `song_index.json` file. This index facilitates quick lookup and organization of songs.
+*   **Usage:** `python3 .gemini/scripts/build_song_index.py`
+    *   The script automatically finds the project root and outputs `song_index.json` in the `.gemini/` directory.
 
 ### `extract_lyrics.py`
 
 *   **Location:** `.gemini/scripts/extract_lyrics.py`
-*   **Purpose:** Extracts clean lyrics from a ChordPro file, formatting section headers for compatibility with platforms like SUNO. It removes chord notations, metadata, and adds line breaks before headers (except the first).
-*   **Usage:**
-    *   `python3 .gemini/scripts/extract_lyrics.py <input_chordpro_file_path> <output_lyrics_file_path>`
+*   **Purpose:** Extracts clean lyrics from a ChordPro file, removing all ChordPro-specific elements (chords, most metadata) and formatting section headers (e.g., `{comment: Verse 1}` becomes `[Verse 1]`) for compatibility with platforms like SUNO. It also ensures a blank line precedes each heading, except the first.
+*   **Usage:** `python3 .gemini/scripts/extract_lyrics.py <input_chordpro_file_path> <output_lyrics_file_path>`
     *   **Example:** `python3 .gemini/scripts/extract_lyrics.py silent-night-sing-noel/silent-night-sing-noel.chordpro silent-night-sing-noel/silent-night-sing-noel-lyrics.txt`
+
+### `standardize_filenames.py`
+
+*   **Location:** `.gemini/scripts/standardize_filenames.py`
+*   **Purpose:** Standardizes song directory and file names based on the song title extracted from its `.chordpro` file. It generates a "slug" from the title and renames the associated folder and files (including the `.chordpro` file itself), also updating the `meta: slug` directive inside the ChordPro file.
+*   **Usage:** `python3 .gemini/scripts/standardize_filenames.py <root_directory_of_songs> [--execute]`
+    *   By default, the script runs in "dry-run" mode, showing planned changes without making them.
+    *   Add `--execute` to apply the renaming operations.
+    *   **Example (Dry Run):** `python3 .gemini/scripts/standardize_filenames.py .`
+    *   **Example (Execute):** `python3 .gemini/scripts/standardize_filenames.py . --execute`
 
 ## GitHub Account
 
