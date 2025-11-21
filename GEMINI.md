@@ -136,6 +136,26 @@ This process moves new ideas from a "Scratchpad" folder in Google Drive into an 
     2.  Move all files found into the destination `_inbox` folder.
     3.  The user can then process these files manually within the Git repository.
 
+## Utility Scripts
+
+This section documents helper scripts used within the project for various tasks.
+
+### `sync_workflow.py`
+
+*   **Location:** `.gemini/scripts/sync_workflow.py`
+*   **Purpose:** Manages the synchronization of songwriting files between the local Git repository and Google Drive. It supports both publishing (repo to Google Drive) and capturing (Google Drive to repo) workflows.
+*   **Usage:**
+    *   `python3 .gemini/scripts/sync_workflow.py --publish`: Publishes files from the local repository to Google Drive.
+    *   `python3 .gemini/scripts/sync_workflow.py --capture`: Captures new ideas from Google Drive into the local repository's inbox.
+
+### `extract_lyrics.py`
+
+*   **Location:** `.gemini/scripts/extract_lyrics.py`
+*   **Purpose:** Extracts clean lyrics from a ChordPro file, formatting section headers for compatibility with platforms like SUNO. It removes chord notations, metadata, and adds line breaks before headers (except the first).
+*   **Usage:**
+    *   `python3 .gemini/scripts/extract_lyrics.py <input_chordpro_file_path> <output_lyrics_file_path>`
+    *   **Example:** `python3 .gemini/scripts/extract_lyrics.py silent-night-sing-noel/silent-night-sing-noel.chordpro silent-night-sing-noel/silent-night-sing-noel-lyrics.txt`
+
 ## GitHub Account
 
 This project is associated with the `anthonypero` GitHub account. When interacting with GitHub for this project, ensure you are using the `github-personal` SSH host.
