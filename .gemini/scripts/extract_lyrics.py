@@ -19,10 +19,16 @@ def extract_lyrics_from_chordpro(input_file_path: str, output_file_path: str):
         lyrics_lines = []
 
         for line in lines:
-            # Remove ChordPro metadata and comments {tag: value}
-            line = re.sub(r'\{[^}]*\}', '', line)
-            # Remove ChordPro chord notations [C]
-            line = re.sub(r'\[[^\]]*\]', '', line)
+            # First, handle comment tags: {comment: Some Header} -> [Some Header]
+            comment_match = re.search(r'\{comment:\s*(.*?)\}', line)
+            if comment_match:
+                comment_text = comment_match.group(1).strip()
+                line = f"[{comment_text}]"
+            else:
+                # Remove other ChordPro metadata tags (e.g., {title: ...}, {artist: ...})
+                line = re.sub(r'\{[^}]*\}', '', line)
+                # Remove ChordPro chord notations [C]
+                line = re.sub(r'\[[^\]]*\]', '', line)
             
             line = line.strip()
             if line:  # Only add non-empty lines
